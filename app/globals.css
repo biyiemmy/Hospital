@@ -35,11 +35,11 @@
   }
 
   .left-sidebar {
-    @apply hidden lg: flex;
+    @apply hidden lg:flex;
   }
 
   .right-sidebar {
-    @apply hidden xl: flex;
+    @apply hidden xl:flex;
   }
 
   .clip-text {
@@ -51,11 +51,11 @@
   }
 
   .header {
-    @apply text-32-bold md: text-36-bold;
+    @apply text-32-bold md:text-36-bold;
   }
 
   .sub-header {
-    @apply text-18-bold md: text-24-bold;
+    @apply text-18-bold md:text-24-bold;
   }
 
   .container {
@@ -67,7 +67,7 @@
   }
 
   .side-img {
-    @apply hidden h-full object-cover md: block;
+    @apply hidden h-full object-cover md:block;
   }
 
   .copyright {
@@ -80,7 +80,7 @@
   }
 
   .request-details {
-    @apply flex w-full flex-col items-center gap-8 border-y-2 border-dark-400 py-8 md: w-fit md:flex-row;
+    @apply flex w-full flex-col items-center gap-8 border-y-2 border-dark-400 py-8 md:w-fit md:flex-row;
   }
 
   /* ===== ADMIN */
@@ -102,7 +102,7 @@
   }
 
   .checkbox-label {
-    @apply cursor-pointer text-sm font-medium text-dark-700 peer-disabled: cursor-not-allowed peer-disabled:opacity-70 md:leading-none;
+    @apply cursor-pointer text-sm font-medium text-dark-700 peer-disabled:cursor-not-allowed peer-disabled:opacity-70 md:leading-none;
   }
 
   /* ==== File Upload */
@@ -201,7 +201,7 @@
   }
 
   .shad-input {
-    @apply bg-dark-400 placeholder: text-dark-600 border-dark-500 h-11 focus-visible:ring-0 focus-visible:ring-offset-0 !important;
+    @apply bg-dark-400 placeholder:text-dark-600 border-dark-500 h-11 focus-visible:ring-0 focus-visible:ring-offset-0 !important;
   }
 
   .shad-input-icon {
@@ -209,7 +209,7 @@
   }
 
   .shad-textArea {
-    @apply bg-dark-400 placeholder: text-dark-600 border-dark-500 focus-visible:ring-0 focus-visible:ring-offset-0 !important;
+    @apply bg-dark-400 placeholder:text-dark-600 border-dark-500 focus-visible:ring-0 focus-visible:ring-offset-0 !important;
   }
 
   .shad-combobox-item {
@@ -221,7 +221,7 @@
   }
 
   .shad-select-trigger {
-    @apply bg-dark-400 placeholder: text-dark-600 border-dark-500 h-11 focus:ring-0 focus:ring-offset-0 !important;
+    @apply bg-dark-400 placeholder:text-dark-600 border-dark-500 h-11 focus:ring-0 focus:ring-offset-0 !important;
   }
 
   .shad-select-content {
@@ -270,12 +270,12 @@
 
   /* =====  REACT PHONE NUMBER INPUT OVERRIDES */
   .input-phone {
-    @apply mt-2 h-11 rounded-md px-3 text-sm border bg-dark-400 placeholder: text-dark-600 border-dark-500 !important;
+    @apply mt-2 h-11 rounded-md px-3 text-sm border bg-dark-400 placeholder:text-dark-600 border-dark-500 !important;
   }
 
   /* =====  REACT DATE PICKER OVERRIDES */
   .date-picker {
-    @apply overflow-hidden border-transparent w-full placeholder: text-dark-600 h-11 text-14-medium rounded-md px-3 outline-none !important;
+    @apply overflow-hidden border-transparent w-full placeholder:text-dark-600 h-11 text-14-medium rounded-md px-3 outline-none !important;
   }
 }
 
